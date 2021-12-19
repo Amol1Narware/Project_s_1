@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[initializing browser]]>
+    </line>
+    <line>
+      <![CDATA[Entering userid and Password ]]>
+    </line>
+    <line>
+      <![CDATA[entering pin]]>
+    </line>
+    <line>
+      <![CDATA[Validating Uid]]>
+    </line>
+    <line>
+      <![CDATA[IDs are matching TC is Passed]]>
+    </line>
+    <line>
+      <![CDATA[Taking screenshot]]>
+    </line>
+    <line>
+      <![CDATA[logiing out...]]>
+    </line>
+    <line>
+      <![CDATA[Closing Browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-12-18T13:18:13 IST" name="Suite" finished-at="2021-12-18T13:18:54 IST" duration-ms="40819">
+    <groups>
+    </groups>
+    <test started-at="2021-12-18T13:18:13 IST" name="Test" finished-at="2021-12-18T13:18:54 IST" duration-ms="40819">
+      <class name="TEST_CLASSES.TestKite1">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TEST_CLASSES.TestKite1@5fdcaa40]" started-at="2021-12-18T13:18:13 IST" name="launchBrowser" finished-at="2021-12-18T13:18:22 IST" duration-ms="8140" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[initializing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logintokite()[pri:0, instance:TEST_CLASSES.TestKite1@5fdcaa40]" started-at="2021-12-18T13:18:22 IST" name="logintokite" finished-at="2021-12-18T13:18:39 IST" duration-ms="17358" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering userid and Password ]]>
+            </line>
+            <line>
+              <![CDATA[entering pin]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logintokite -->
+        <test-method signature="validateuID()[pri:0, instance:TEST_CLASSES.TestKite1@5fdcaa40]" started-at="2021-12-18T13:18:39 IST" name="validateuID" finished-at="2021-12-18T13:18:46 IST" duration-ms="6632" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Validating Uid]]>
+            </line>
+            <line>
+              <![CDATA[IDs are matching TC is Passed]]>
+            </line>
+            <line>
+              <![CDATA[Taking screenshot]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateuID -->
+        <test-method is-config="true" signature="logouttokite()[pri:0, instance:TEST_CLASSES.TestKite1@5fdcaa40]" started-at="2021-12-18T13:18:46 IST" name="logouttokite" finished-at="2021-12-18T13:18:54 IST" duration-ms="8566" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logiing out...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logouttokite -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:TEST_CLASSES.TestKite1@5fdcaa40]" started-at="2021-12-18T13:18:54 IST" name="closingBrowser" finished-at="2021-12-18T13:18:54 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- TEST_CLASSES.TestKite1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
